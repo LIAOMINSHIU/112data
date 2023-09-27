@@ -22,7 +22,7 @@ interestingNumber
 covidPositive
 
 # Retrieve 【ONE】 element value----
-# using [[]] double bracket (只️能取一個值)
+# using [[]] double bracket (只️能取一個值
 # by position / index
 personName[[1]]
 personName[[2]]
@@ -109,6 +109,6 @@ collective_data = list(
 ## Retrieve the 2nd person's data and tell me his/her name
 collective_data[[2]][["name"]]
 collective_data[[2]]$name
-##Retrieve the 2nd person's data and tell me his/her name and marriage status
+##Retrieve the 2nd person's data and tell me his/her name and marriage status(multiple element)
 collective_data[[2]][c("name","is married")]
 
