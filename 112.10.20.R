@@ -42,6 +42,7 @@ flightsData[,c("AirlineID","CodeShare","DepartureTime")]
 ##check element names----
 names(flightsData)
 
+
 ##class of elements(check the element 的性質)----
 class(flightsData$AirlineID)
 class(flightsData$ScheduleStartDate)
@@ -82,7 +83,6 @@ class(ord_fct_householdIncome)
 
 ord_fct_householdIncome[[1]]<"low income"
 ord_fct_householdIncome[[1]]<"high income"
-
 
 #parse airlineID----
 class(flightsData$AirlineID)
