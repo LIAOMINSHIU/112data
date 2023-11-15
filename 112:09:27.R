@@ -111,4 +111,15 @@ collective_data[[2]][["name"]]
 collective_data[[2]]$name
 ##Retrieve the 2nd person's data and tell me his/her name and marriage status(multiple element)
 collective_data[[2]][c("name","is married")]
+collective_data[[2]]$name
+class(collective_data)
+typeof(collective_data)
+View(collective_data)
 
+
+data.frame(
+  name = c("Mary", "John"),
+  grade = c(3, 4)
+)
+class(data.frame)
+typeof(data.frame)

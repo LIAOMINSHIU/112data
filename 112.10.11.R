@@ -4,7 +4,7 @@
 
 #import json file
 flights <- jsonlite::fromJSON("data/international_flights.json")
-view(flights)
+View(flights)
 
 ##data information----
 data1 <- list(
@@ -40,4 +40,6 @@ flightsData[c(1,3,5),c(1,3,5)]
 
 saveRDS(flights, file="data/flight.rds")
 
-
+typeof(flightsData$AirlineID)
+class(flightsData$AirlineID)
+class(flights)

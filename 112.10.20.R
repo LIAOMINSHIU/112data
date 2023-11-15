@@ -9,6 +9,8 @@ flightsData <- flights$data[[1]]$data_frame
 #for list $name is the same as[["name"]]
 flights[["data"]][[1]][["data_frame"]]
 
+flightsData
+
 ##data frame vs list----
 grades <- data.frame(
   student = c("Alice", "Bob", "Charlie", "David", "Eve"),
